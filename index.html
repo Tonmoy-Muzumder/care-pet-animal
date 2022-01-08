@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grooming-We Care Dogs and Cats </title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="basic-tamplate/fontawesome/css/all.css">
+
+    <!-- <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans" type='text/css'> -->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+</head>
+<body>
+    <section>
+        <nav style="background-color: rgb(68, 33, 8);" class="navbar navbar-expand-lg navbar-light fixed-top" >
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                  <img style="width: 170px;" src="images/logo/logo-1.webp" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a  class="nav-link active text-white fs-5 mx-3" aria-current="page" href="#">HOME</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5 mx-3" href="#about">ABOUT</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white fs-5 mx-3" href="#service" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      SERVICES
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item fs-4" href="#">FULL GROOMING</a></li>
+                      <li><a class="dropdown-item fs-4" href="#">BATH & DRY</a></li>
+                      <li><a class="dropdown-item fs-4" href="#">STYLE</a></li>
+                      <li><a class="dropdown-item fs-4" href="#">MEDICAL BATH</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5 mx-3" href="#shop">SHOP</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5 mx-3" href="#blog">BLOG</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5 mx-3" href="#faq">FAQ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white fs-5 mx-3" href="#contact">CONTACT</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="nav-link text-white fs-5 mx-3 hover" href="#">Login <i class="fas fa-sign-in-alt"></i></a>
+
+                      <div type="button"  id="exampleModal" class="modal" tabindex="-1">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Please Login</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                              <input class="w-100" type="text" placeholder="your email">
+                              <br>
+                              <br>
+                              <input class="w-100" type="password" placeholder="password">
+                            </div>
+                            <div class="text-center">
+                              <button type="button" class="btn btn-info mb-4 text-white" data-bs-dismiss="modal">Login</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                     
+                   </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <!-- navbar end -->
+<br>
+<br>
+<br>
+    <section class="my-2">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img style="height: 800px;" src="images/banner/banner-3.png" class="d-block w-50 " alt="...">
+                <div style="color: rgb(167, 57, 17); font-size: 80px; margin-bottom: 200px;" class="carousel-caption d-none d-md-block text-end ">
+                  <h1 style="font-size: 70px;"> <span style="color: black;">We Style</span> Your Pet</h1>
+                  <h4>Best grooming your Pets & Dogs of many breeds.</h4>
+                  <button type="button" class="btn btn-outline-danger">Make an appointment</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img style="height: 800px;" src="images/banner/banner-1.jpg" class="d-block w-100" alt="...">
+                <div style="color: rgb(167, 57, 17); font-size: 80px; margin-bottom: 200px;" class="carousel-caption d-none d-md-block text-start ">
+                  <h1 style="font-size: 70px;">We Take Care <br> Your Pet</h1>
+                  <h4>Best grooming your Pets & Dogs of many breeds.</h4>
+                  <button type="button" class="btn btn-outline-danger">Make an appointment</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img style="height: 800px;" src="images/banner/banner-2.jpg" class="d-block w-100" alt="...">
+                <div style="color: rgb(167, 57, 17); font-size: 80px; margin-bottom: 200px;" class="carousel-caption d-none d-md-block text-end ">
+                  <h1 style="font-size: 70px;">We Style Your Pet</h1>
+                  <h4>Best grooming your Pets & Dogs of many breeds.</h4>
+                  <button type="button" class="btn btn-danger">Make an appointment</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    <!-- slider end -->
+
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <h1 class="my-3 title">OUR STORY</h1>
+            <p>We have been grooming for many years now and we love every part of our job! We provide a very warm and friendly environment for your pets. Our professional team made sure your pet always gets the highest level of care, because we treat all pets as if they were our own!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugiat commodi perferendis, praesentium nostrum atque ipsum id consequuntur nisi ad excepturi nihil. Excepturi autem enim nobis accusantium nostrum? Harum, expedita!</p>
+
+            <br>
+            <br>
+            <button class="btn btn-danger rounded-3">Request a call</button> 
+          </div>
+          <div class="col-lg-6">
+            <img class="img-fluid" src="images/about/about.webp" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="service">
+      <div style="background-color: rgb(255, 255, 255);" class="container">
+        <h1 class="title text-center my-5">OUR SERVICES</h1>       
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="text-end mt-5">
+              <h2>Full Grooming <span><img src="images/service/1.JPG" alt=""></span></h2>
+            <p class="text-end">Your pet is in good hands with us! Let your <br> favorite get  the best  care in our center.</p>
+            </div>
+
+            <br>
+            <br>
+            <br>
+
+            <h2 class="text-end mt-5">Bath & Dry <span><img src="images/service/2.JPG" alt=""></span></h2>
+            <p class="text-end">We use a big range of shampoos for all different  <br> coat types and breeds.</p>
+          </div>
+          <div class="col-lg-4">
+            <img class="w-75 img-fluid ms-5" src="images/service/sevice-1.JPG" alt="">
+          </div>
+          <div class="col-lg-4">
+            <h2 class="text-start mt-5"><span><img src="images/service/3.JPG" alt=""></span> Style</h2>
+            <p class="text-start">Our team of pet hair stylists is happy <br> to make your animal look pretty and happy.</p>
+            <br>
+            <br>
+            <br>
+            <h2 class="text-start mt-5"><span><img src="images/service/4.JPG" alt=""></span> Medical Bath</h2>
+            <p class="text-start">Bathing in our vet bath, using an appropriate <br> shampoo that is kind to pet’s skin.</p>
+
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- service end -->
+
+    <section id="shop">
+        <h1 class="title text-center my-5">OUR SHOP</h1>
+            <div style="background-color: cornsilk;" class="container">
+              <div class="row g-4">
+                <div class="col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <img class="img-fluid mb-3" src="images/shop/shop-1.jpg" alt="">
+                     <h3 class="mb-3">Orange Playing Ball</h3>
+                     <h1>$17.00</h1>
+                     <br>
+                     <br>
+                      <div class="btn btn-warning">Add to cart</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <img class="img-fluid mb-3" src="images/shop/shop-2.jpg" alt="">
+                     <h3 class="mb-3">Plastic Bowl For Dog</h3>
+                     <h1>$25.00</h1>
+                     <br>
+                     <br>
+                      <div class="btn btn-warning">Add to cart</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <img class="img-fluid mb-3" src="images/shop/shop-3.jpg" alt="">
+                     <h3 class="mb-3">Stand With Bowls</h3>
+                     <h1>$80.00</h1>
+                     <br>
+                     <br>
+                      <div class="btn btn-warning">Add to cart</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <img class="img-fluid mb-3" src="images/shop/shop-4.jpg" alt="">
+                     <h3 class="mb-3">Universal Dog Food</h3>
+                     <h1>$19.00</h1>
+                     <br>
+                     <br>
+                      <div class="btn btn-warning">Add to cart</div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <img class="img-fluid mb-3" src="images/shop/shop-5.jpg" alt="">
+                     <h3 class="mb-3">Aluminium Clipper Blade
+                      </h3>
+                     <h1>$25.00</h1>
+                     <br>
+                     <br>
+                      <div class="btn btn-warning">Add to cart</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <img class="img-fluid mb-3" src="images/shop/shop-6.jpg" alt="">
+                     <h3 class="mb-3">Big Coarse-Toothed Comb
+                    </h3>
+                     <h1>$17.00</h1>
+                     <br>
+                     <br>
+                      <div class="btn btn-warning">Add to cart</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <img class="img-fluid mb-3" src="images/shop/shop-7.jpg" alt="">
+                     <h3 class="mb-3">Cat Dematting Comb</h3>
+                     <h1>$17.00</h1>
+                     <br>
+                     <br>
+                      <div class="btn btn-warning">Add to cart</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3">
+                  <div class="card">
+                    <div class="card-body text-center">
+                      <img class="img-fluid mb-3" src="images/shop/shop-8.jpg" alt="">
+                     <h3 class="mb-3">Orange Playing Ball</h3>
+                     <h1>$17.00</h1>
+                     <br>
+                     <br>
+                      <div class="btn btn-warning">Add to cart</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </section>
+    <!-- shop end -->
+
+    <section id="blog" class="container">
+      <h1 class="title text-center my-5">BLOGS</h1>
+          <div class="row g-4">
+            <div class="col-lg-4">
+              <div class="card">
+                <img style="height: 300px;" class="img-fluid" src="images/blog/blog-1.jpg" alt="">
+                <div class="blog-content">
+                  <h6 class="my-3">Posted July 6, 2016</h6>
+                  <h4>How to Take Care Of Your Dog</h4>
+                  <button style="border-radius: 35px;" class="btn btn-warning my-3">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <img style="height: 300px;" class="img-fluid" src="images/blog/blog-2.jpg" alt="">
+                <div class="blog-content">
+                  <h6 class="my-3">Posted July 6, 2016</h6>
+                  <h4>How to Take Care Of Your Dog</h4>
+                  <button style="border-radius: 35px;" class="btn btn-warning my-3">Read More</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card">
+                <img style="height: 300px;" class="img-fluid" src="images/blog/blog-3.jpg" alt="">
+                <div class="blog-content">
+                  <h6 class="my-3">Posted July 6, 2016</h6>
+                  <h4>How to Take Care Of Your Dog</h4>
+                  <button style="border-radius: 35px;" class="btn btn-warning my-3">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+<!-- blog end -->
+    <section class="container" id="faq">
+      <h1 class="title text-center my-5">FAQ</h1>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6">
+              <img class="img-fluid" src="images/faq.png" alt="">
+            </div>
+            <div  class="col-lg-6">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      What is the main purpose of this website?
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quas necessitatibus mollitia odit debitis porro perferendis aperiam earum, eveniet expedita magni officiis suscipit ex architecto, aut eaque hic, distinctio fugiat animi explicabo nemo veniam! Eius rerum sequi qui facilis iusto veniam suscipit asperiores similique? Repudiandae non quis aspernatur quasi similique.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Where are your main office?
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam explicabo minus deleniti nemo repudiandae recusandae, sapiente aspernatur beatae labore facilis eum, nihil debitis, reiciendis facere quae provident necessitatibus vitae quo dolorem unde fugit distinctio! Facere quisquam deserunt assumenda odio, itaque quam earum pariatur nisi quo reiciendis hic ad tempora consectetur.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      How can I get sevice from your site?
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis reiciendis impedit ipsam in nostrum ad! Culpa sequi obcaecati praesentium ducimus voluptates! Laboriosam harum quia a, modi in, blanditiis repellat nobis beatae ullam ipsam culpa illo, obcaecati consectetur eligendi. Quia aut vitae excepturi assumenda recusandae impedit ullam magnam sunt adipisci culpa!
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+      <section id="contact">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-lg-6 text-center">
+                <h1 class="text-center my-5">Drop a Line</h1>
+                <form style="text-align: center;" action="submit">
+                  <input style="width: 47%;" class=" round p-2"  type="text" placeholder="Name*">
+                  <input style="width: 47%;" class="round p-2" type="text" placeholder="Email*">
+                  <br>
+                  <textarea class=" my-3 w-100 round p-3" name="" id="" cols="30" rows="10" placeholder="Type your message here..."></textarea>
+                </form>
+                
+                <button style="border-radius: 20px; padding: 10px; width: 50%; color: white;" class="btn btn-warning my-1">Send Message</button>
+              </div>
+              <div class="col-lg-6">
+              <div class="row">
+                <div class="col-lg-4">
+
+                </div>
+                <div class="col-lg-8">
+                   <h1 class="title  my-5">CONTACT</h1>
+                 <div class="col-lg-6 contact-content">
+                   <h6 class="d-flex"><i style="color: chocolate; cursor: pointer;" class="fas fa-envelope m-1"></i>tonmoymuzumder1@gmail.com</h6>
+ 
+                   <h6 class="d-flex"><i style="color: chocolate; cursor: pointer;" class="fas fa-phone-alt m-1"></i> (+880)1634155401</h6>
+                   <h6  class="d-flex"><i style="color: chocolate; cursor: pointer;" class="fas fa-map-marker-alt m-1"></i> Dhaka,Bangladesh</h6>
+                 </div>
+
+                 <!-- icons -->
+                 <div>
+                  <br>  
+                  <h4 class="my-4">Follow Us : <span class="icons">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-github"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a> 
+                </span>
+                 </h4>
+                  
+              </div>
+
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- contact end -->
+
+      <section style="background-color: rgb(68, 33, 8);" class="w-100">
+        <div  class="container">
+            <div class="row my-5">
+              <div class="col-lg-3 my-5">
+                <img class="img-fluid w-75" src="images/logo/logo-1.webp" alt="">
+              </div>
+
+              <div class="col-lg-3 my-5">
+                <h4 style="color: coral;">CONTACT INFO</h4>
+                <div class="col-lg-6 contact-content">
+                  <h6 style="color: white;" class="d-flex"><i style="color: chocolate; cursor: pointer;" class="fas fa-envelope m-1"></i>tonmoymuzumder1@gmail.com</h6>
+
+                  <h6 style="color: white;" class="d-flex"><i style="color: chocolate; cursor: pointer;" class="fas fa-phone-alt m-1"></i> (+880)1634155401</h6>
+
+                  <h6 style="color: white;" class="d-flex"><i style="color: chocolate; cursor: pointer;" class="fas fa-map-marker-alt m-1"></i> Dhaka,Bangladesh</h6>
+                </div>
+               
+              </div>
+              <div class="col-lg-3 my-5">
+                <h4 style="color: coral;">ABOUT US</h4>
+                <p style="color: white;">Your pet is in good hands with our team of professional groomers. We offer only top quality service.</p>
+              </div>
+
+              <div class="col-lg-3 my-5">
+                <h4 style="color: coral;">SUBSCRIBE</h4>
+                <input style="border-radius: 20px; padding: 10px; outline: none; border: none;
+                " class="w-75" type="text" placeholder="Your email address"> <button class="btn-go">GO</button>
+
+                  <div class="form-check  my-3">
+                   <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                   <label style="color: white;" class="form-check-label" for="flexCheckDefault">
+                    I agree that my submitted data is being collected and stored.
+                   </label>
+                  </div>
+              </div>
+             <div class="footer">
+              <br>
+              <br>
+              <hr>
+              <br>
+              <p class="text-center">Grooming © 2022 All Rights Reserved. Terms of Use and Privacy Policy</p>
+             </div>
+            </div>
+        </div>
+      </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

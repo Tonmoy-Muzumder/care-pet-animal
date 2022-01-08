@@ -1,0 +1,51 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+
+/* body
+{
+    background-color: #cf7c00;
+    font-family: "Open Sans", Arial;
+} */
+p{
+    text-align: justify;
+}
+.title{
+    font-size: 50px;
+    color: coral;
+    letter-spacing: 5px;
+}
+h2{
+    cursor: pointer;
+}
+h2:hover{
+    color: rgb(255, 145, 0);
+}
+.round{
+    border-radius: 20px;
+}
+.icons a {
+    color: rgb(10, 10, 10);
+}
+.icons a:hover{
+    color: aqua;
+}
+.btn-go{
+    padding: 5px;
+    color: white;
+    background-color: tomato;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+}
+.btn-go:hover{
+    background-color: rgb(80, 220, 255);
+}
+.footer{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.blog-content{
+    background-color: wheat;
+    text-align: center;
+
+}
